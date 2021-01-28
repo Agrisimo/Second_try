@@ -8,7 +8,7 @@ max_guesses = 7
 remaining_guesses = max_guesses
 secret_number = int(random.randint(low,high))
 
-print(f"Welcome to guess a number game. "
+print(f"Welcome to guess a number game Nr2. "
       f"The secret number is from {low} to {high}! "
       f"You have {max_guesses} guesses available!")
 time.sleep(0.5)
